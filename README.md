@@ -1,7 +1,10 @@
 #
 
 C-Programming
-About the C programming, I am uploading the codes I have written 
+
+
+
+About the C programming, I am uploading the codes I have written i hope it will help you
 
 
 Recently i am uploding this codes on other platform but when i heard about this platform 
