@@ -1,0 +1,32 @@
+Range betewwn even and odd 
+
+
+
+#include<stdio.h>
+#include<conio.h>
+int main ()
+{
+    int a,b,number,number1,reverse=0,remainder;
+    printf("Enter the number for a:\n");
+    scanf("%d",&a);
+    printf("Enter the number for b:\n");
+    scanf("%d",&b);
+
+    while(a<b)
+    {
+        if(a%2!=0)
+            printf("odd number: %d\n",a);
+        else
+            printf("even number: %d\n",a);
+            a++;
+    }
+    while(a>=b)
+    {
+        if(a%2!=0)
+            printf("odd number: %d\n",a);
+        else  
+            printf("even number: %d\n",a);
+        a--;
+    }
+    
+}
