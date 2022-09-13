@@ -1,0 +1,22 @@
+Fibbonassci Series
+
+
+
+
+#include<stdio.h>
+#include<conio.h>
+int main ()
+{
+    int num,num1=0,num2=1,next,i;
+    printf("Enter the number for fibonassci series\n");
+    scanf("%d",&num);
+    for(i=0;i<num;i++)
+    {
+        printf("%d  ",num1);
+        next=num1+num2;
+        num1=num2;
+        num2=next;
+    }
+
+    return 0;
+}
