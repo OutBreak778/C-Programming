@@ -1,0 +1,25 @@
+Multiplication Table
+
+
+
+
+
+
+
+#include<stdio.h>
+#include<conio.h>
+int main ()
+{
+    int number,a;
+    printf("Enter the number\n");
+    scanf("%d",&number);
+    printf("\n"); 
+    printf("    **multiplication table of %d**\n\n",number);
+    a=1; 
+    while(a<=10)
+    {
+        printf("%d\n",a*number);
+        a++;
+    }
+    return 0;
+}
