@@ -1,0 +1,26 @@
+Armstrong number
+
+
+
+
+#include<stdio.h>
+#include<conio.h>
+int main ()
+{
+    int num,num1,sum=0,rem,i;
+    printf("Enter the number:\n");
+    scanf("%d",&num);
+    num1=num;
+    for(i=0;num1!=0;i++)
+    {
+        rem=num1%10;
+        sum+=rem*rem*rem;
+        num1=num1/10;
+    }
+    if(sum==num)
+    printf("%d is an armstrong\n",num);
+    else  
+    printf("%d is not an armstrong\n",num);
+
+    return 0;
+}
