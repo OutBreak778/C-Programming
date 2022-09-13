@@ -1,0 +1,27 @@
+All String function inside the single program of string
+
+
+
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+int main ()
+{
+    char a[50];
+    int l;
+    printf("Enter the string\n");
+    gets(a);
+    printf("The string is %s\n",a);
+    l=strlen(a);
+    printf("Th lenght of the string is %d\n",l);
+    strrev(a);
+    printf("The reverse of the character is %s\n",a);
+    strrev(a);
+    strupr(a);
+    printf("Character in Uppercase: %s\n",a);
+    strlwr(a);
+    printf("Character in Lowercase: %s\n",a);
+    return 0;
+}
