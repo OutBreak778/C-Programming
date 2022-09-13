@@ -1,0 +1,26 @@
+Factorail in Function
+
+
+
+
+
+
+#include<stdio.h>
+#include<conio.h>
+int fact(int);
+int main()
+{
+    int num,ans;
+    printf("Enter the number\n");
+    scanf("%d",&num);
+    ans=fact(num);
+    printf("Factorial of %d is %d\n",num,ans);
+    return 0;
+}
+int fact(int x)
+{
+    int total=1,i;
+    for(i=1;i<=x;i++)
+    total=total*i;
+    return total;
+}
