@@ -1,0 +1,19 @@
+LowerCase in String
+
+
+
+
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<conio.h>
+int main ()
+{
+    char a[30];
+    printf("Enter the string\n");
+    gets(a);
+    strlwr(a);
+    printf("The string in the lowercase: %s\n",a);
+    return 0;
+}
