@@ -1,5 +1,4 @@
-# C-Programming
-About the C programming, I am uploading the codes I have written 
+Sorting the Array Element 
 
 
 
