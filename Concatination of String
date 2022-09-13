@@ -1,0 +1,19 @@
+Concatination of String
+
+
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+int main ()
+{
+    char a[30],b[30];
+    printf("Enter the firt string\n");
+    gets(a);
+    printf("Enter the second string\n");
+    gets(b);
+    strcat(b,a);
+    printf("The string of first element: %s\nThe string of second element:%s\n",a,b);
+    return 0;
+}
