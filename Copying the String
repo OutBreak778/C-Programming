@@ -1,0 +1,22 @@
+Copying the String
+
+
+
+
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+int main ()
+{
+    char a[20],b[20];
+    printf("Enter the first string\n");
+    gets(a);
+    printf("Enter teh second string\n");
+    gets(b);
+    strcpy(b,a);
+    printf("The string of first element: %s\nThe string of second element: %s\n",a,b);
+    printf("The Copyed the String: %s",strcpy(b,a));
+    return 0;
+}
